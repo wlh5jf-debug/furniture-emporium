@@ -1,0 +1,70 @@
+body {
+    background-color: #dad7cd;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+button{
+    background: none;
+    background-color: #588157;
+    border: 2px solid black;
+    border-radius:3px;
+    font-size: 1em;
+    transition: all 0.25s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+button:hover {
+    border-color:#a3b18a;
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em #a3b18a;
+    transform: translateY(-0.20em);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#title {
+    display: flex;
+    background-color: #b0c4b1;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    text-align: center;
+    text-transform:uppercase;
+    margin:0;
+    
+}
+
+#under {
+    text-align:center;
+    font-size: large;
+    font-style: oblique;
+    font-family:fantasy;
+    border-bottom: 1px dotted black;
+    
+}
+
+
+.price{
+    background-color: #fefae0;
+    border:2px solid black;
+    margin: 60px;
+    border-radius: 10px;
+    padding: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width:fit-content;
+}
+
+.sale{
+    font-size: larger;
+    color:#333d29
+}
+
+.origin{
+    color:rgb(162, 51, 51);
+    font-style:italic;
+    font-size: medium;
+}
+
